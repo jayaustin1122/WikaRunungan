@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">Wika-Runungan</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Wika Runungan</string>
+    <string name="clickable_sentence">This is a <span android:textStyle="bold" android:textColor="@color/clickable_text" android:clickable="true">clickable word</span> in a sentence.</string>
+
 </resources>
