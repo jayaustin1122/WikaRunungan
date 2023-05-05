@@ -7,10 +7,8 @@ import com.example.wika_runungan.data.Noli
 import com.example.wika_runungan.databinding.NoliRowItemBinding
 
 class NoliAdapter(var lists: MutableList<Noli>): RecyclerView.Adapter<NoliAdapter.NoliViewHolder>()   {
-
     var onItemClick : ((Noli)-> Unit)? = null
     inner class NoliViewHolder (val binding: NoliRowItemBinding):RecyclerView.ViewHolder(binding.root)
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoliViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val binding = NoliRowItemBinding.inflate(layoutInflater,parent,false)

@@ -1,5 +1,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">Wika Runungan</string>
-    <string name="clickable_sentence">This is a <span android:textStyle="bold" android:textColor="@color/clickable_text" android:clickable="true">clickable word</span> in a sentence.</string>
+    <string name="clickable_sentence">This is a <span android:clickable="true" android:textColor="@color/clickable_text" android:textStyle="bold">clickable word</span> in a sentence.</string>
+    <string name="glosaryo">Glosaryo</string>
+    <string name="kabanata">Kabanata</string>
+    <string name="asd">asd</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Ang WIKArunungan ay isang offline mobile application na naglalaman n Noli Me Tangere. Layunin nitong mapaunlad ang iyong bokabukaryo sa pormal na wikang Filipino; gayundin upang tulungang mapayabong ang wikang Filipino. Ito ay nagbibigay ng mga kahulugan ng mga salita at mga paliwanag sa mga talasalitaan na maaaring mahirap unawain ng mga hindi gaanong pamilyar sa wikang Filipino. Sa pamamagitan ng WIKArunungan, mas magiging madali para sa iyo na maunawaan ang mga pangungusap at mas mapapalawak ang iyong kaalaman sa wikang Filipino, lalo na sa konteksto ng mga nabanggit na nobela. Dahil sa offline na kalikasan ng mobile application na ito, maaaring magamit ito kahit saan at kahit walang koneksyon sa internet.</string>
 
 </resources>

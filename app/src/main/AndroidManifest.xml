@@ -15,10 +15,7 @@
             android:name=".GlosaryActivity"
             android:windowSoftInputMode="adjustPan"
             android:exported="false" />
-        <activity
-            android:name=".ElfiliActivity"
-            android:windowSoftInputMode="adjustPan"
-            android:exported="false" />
+
         <activity
             android:name=".NolimeActivity"
             android:windowSoftInputMode="adjustPan"
@@ -32,9 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>

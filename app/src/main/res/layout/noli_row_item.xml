@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="360dp"
-    android:layout_height="260dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
     android:background="@drawable/bgitemrow">
 
     <androidx.cardview.widget.CardView
@@ -35,11 +35,12 @@
             android:textSize="20sp" />
     </androidx.cardview.widget.CardView>
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgCover"
         android:layout_width="180dp"
         android:scaleType="fitXY"
         android:layout_height="130dp"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
