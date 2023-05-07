@@ -1,13 +1,13 @@
 package com.example.wika_runungan.adapters
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wika_runungan.data.Noli
 import com.example.wika_runungan.databinding.NoliRowItemBinding
 
-class NoliAdapter(var lists: MutableList<Noli>): RecyclerView.Adapter<NoliAdapter.NoliViewHolder>()   {
-    var onItemClick : ((Noli)-> Unit)? = null
+class NoliAdapter(private val context: Context, var lists: MutableList<Noli>, private val onItemClickListener: (Int) -> Unit): RecyclerView.Adapter<NoliAdapter.NoliViewHolder>()   {
     inner class NoliViewHolder (val binding: NoliRowItemBinding):RecyclerView.ViewHolder(binding.root)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoliViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -32,7 +32,7 @@ class NoliAdapter(var lists: MutableList<Noli>): RecyclerView.Adapter<NoliAdapte
         }
         // to make the viewcard functional
         holder.itemView.setOnClickListener(){
-            onItemClick?.invoke(lists[position])
+            onItemClickListener(position)
         }
     }
 }

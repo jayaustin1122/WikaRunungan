@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import android.widget.SearchView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.wika_runungan.Kabanata.*
+import com.example.wika_runungan.NolimeActivity
 import com.example.wika_runungan.R
 import com.example.wika_runungan.adapters.NoliAdapter
 import com.example.wika_runungan.data.Noli
@@ -101,7 +103,31 @@ class KabanataFragments : Fragment() {
             Noli("KABANATA 64: EPILOGO",R.drawable.kabanataone),
         )
 
-        adapter = NoliAdapter(kabanataLists)
+        adapter = NoliAdapter(this@KabanataFragments.requireContext(),kabanataLists){ position ->
+            if (position == 0){
+                val intent = Intent(this@KabanataFragments.requireContext(), Kabanata1::class.java)
+                startActivity(intent)
+            }
+            else if (position == 1){
+                val intent = Intent(this@KabanataFragments.requireContext(), Kabanata2::class.java)
+                startActivity(intent)
+            }
+            else if (position == 2){
+                val intent = Intent(this@KabanataFragments.requireContext(), Kabanata3
+                ::class.java)
+                startActivity(intent)
+            }
+            else if (position == 3){
+                val intent = Intent(this@KabanataFragments.requireContext(), Kabanata4
+                ::class.java)
+                startActivity(intent)
+            }
+            else if (position == 4){
+                val intent = Intent(this@KabanataFragments.requireContext(), Kabanata5
+                ::class.java)
+                startActivity(intent)
+            }
+        }
         binding.recycler.adapter = adapter
         binding.recycler.layoutManager = LinearLayoutManager(this@KabanataFragments.requireContext())
         binding.searchEt2.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
@@ -132,16 +158,8 @@ class KabanataFragments : Fragment() {
             }
 
         })
-        adapter.onItemClick = {
-//            val intent = Intent(this, Onclicked::class.java)
-//            intent.putExtra("title",it.title)
-//            intent.putExtra("code",it.code)
-//            Toast.makeText(this, it.title, Toast.LENGTH_SHORT).show()
-//            startActivity(intent)
+
         }
 
 
     }
-
-
-}
