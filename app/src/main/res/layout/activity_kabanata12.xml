@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Kabanata.Kabanata1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/asd"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/asd"
+        android:padding="15dp"
+        android:text="KABANATA 12: ARAW NG MGA PATAY/ TODOS LOSANTOS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="\nSa ika-lanbindalawang kabanata ng Noli Me Tangere "
+                    android:textSize="13sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" isinalaysay rito ang dalawang "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/sepultorero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/medium"
+                        android:text="sepultorero "
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="at pinamagatan itong “Araw ng mga Patay.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="\nAng dalawang sepulturero ay nasa kalagitnaan ng kanilang paghuhukay sa sementeryo ng bayan. Inilarawan ang sementeryo bilang napabayaan na dahil walang taga-pangalaga. Sinasabing may isang krus na nakatirik sa isang bato sa gitna ng libingan."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="\nHabang ang dalawang tauhan ay abala sa kanilang paghuhukay disoras ng gabi ay naisipan nilang kwentuhan ang isa’t-isa tungkol sa kanilang mga naging karanasan sa trabaho."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="\nAng mas bata at mas bagong sepulturero ay kanyang sinambit na bagong lipat lamang siya sa bayan dahil hindi niya nakayanan ang mga utos sa kanya sa dating libingan kung saan siya nagtatrabaho, lalong-lalo na ang paghukay ng bago pa lamang kakalibing para ilipat ito sa ibang lugar."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="\nAng sepultorerong may higit na karanasan kaysa sa kanyang kasama ay inilahad naman niya na noon ay may isang bangkay na dalawampung araw palang naililibing na ipinahukay sa kanya. Sariwa pa aniya ang bangkay."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="\nIniutos sa kanya na ilipat ang bangkay sa libingan"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" ng mga Intsik ngunit hindi niya ito "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/nagampanan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" nagampanan "
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="dahil sa bugso ng ulan. Itinapon niya ang bangkay sa lawa. Napag-alaman rin na isang prayleng nag-ngangalang Pader Garrote and nag-utos."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

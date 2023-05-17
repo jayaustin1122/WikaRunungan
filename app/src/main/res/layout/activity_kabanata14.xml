@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Kabanata.Kabanata1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/asd"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/asd"
+        android:padding="15dp"
+        android:text="KABANATA 14: SI PILOSOPO TASYO "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="\nKasabay ng pagdalaw ni Ibarra sa puntod ng ama, ay ang pagdalaw din ni Pilosopo Tasyo sa kaniyang namayapang asawa.Pilosopo Tasyo ang tawag nila kay Don Anastacio. Mayaman ang pakalat-kalat na matanda sa lansangan. Sadyang matalino ito at mahusay magsalita. Pinahinto ito ng kaniyang ina sa pag-aaral sa dalubhasaan ng San Jose dahil baka daw malimot na nito ang Diyos sa sobrang talino. Nais kasi ng ina niya na maging pari ito.
+Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namayapa ang asawa niya. Itinuon na lamang niya ang oras sa pagbabasa at napabayaan ang mga minana."
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="\nMadilim ang langit at maraming kidlat sa langit. Ngunit sa halip na matakot, masaya pa si Tasyo sa lagay ng panahon. Hiling daw kasi niya na "
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="magka"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/delubyo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/medium"
+                        android:text=" delubyo "
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="upang malinis ang sangkatauhan."
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="\nNagtungo si Tasyo sa simbahan at nakita ang magkapatid. Sinabihan niya ito na umuwi na dahil may espesyal na hapunang inihanda ang ina nila. Natuwa man ang magkapatid ay nanatili sila sa simbahan."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:layout_gravity="center"
+                    android:text="\nNagpatuloy sa paglalakad ang matanda hanggang narating ang bahay nina Don Filipo at Aling Doray."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="Napag-usapan nila si Ibarra at ang"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/hinagpis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" hinagpis"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" na"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:layout_gravity="center"
+                    android:text="nararamdaman nito dahil sa sinapit ng ama."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="Nauwi sa usapang"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/purgatoryo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" purgatoryo "
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="ang talakayan. Hindi"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="man daw naniniwala ang Pilosopo rito ay gabay naman daw ito upang mabuhay nang malinis."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="Katulad ng nakagawian, nagpaalam si Tasyo at naglakad kahit madilim ang langit at"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/nagngingitngit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" nagngingitngit  "
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="13sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="ang kulog at kidlat."
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

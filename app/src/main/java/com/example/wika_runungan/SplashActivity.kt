@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
 
         CoroutineScope(Dispatchers.Main).launch {
             delay(3000L)
-            startActivity(Intent(this@SplashActivity, NolimeActivity::class.java))
+            startActivity(Intent(this@SplashActivity, MainActivity::class.java))
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
             finish()
         }

@@ -12,6 +12,6 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:padding="10dp"
-        android:fontFamily="@font/bold"
+        android:fontFamily="@font/medium"
         android:text="@string/about"/>
 </androidx.cardview.widget.CardView>

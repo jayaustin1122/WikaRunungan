@@ -12,6 +12,45 @@
         android:theme="@style/Theme.WikaRunungan"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata15"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata14"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata13"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata12"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata11"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata10"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata9"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata8"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata7"
+            android:exported="false" />
+        <activity
+            android:name=".Kabanata.Kabanata6"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.GlosaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Kabanata.Kabanata5"
             android:exported="false" />
         <activity
