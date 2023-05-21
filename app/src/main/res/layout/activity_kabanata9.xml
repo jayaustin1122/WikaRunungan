@@ -111,21 +111,13 @@
                         android:textColor="@color/blue"
                         android:textSize="12sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="na hindi siya"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
 
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="sang-ayon sa nakikita niyang pakikipagmabutihan ni Maria Clara kay Crisostomo Ibarra. Hindi daw sila dapat na magkatuluyan dahil si Ibarra ay isang kaaway."
+                    android:text="na hindi siya sang-ayon sa nakikita niyang pakikipagmabutihan ni Maria Clara kay Crisostomo Ibarra. Hindi daw sila dapat na magkatuluyan dahil si Ibarra ay isang kaaway."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="12sp" />

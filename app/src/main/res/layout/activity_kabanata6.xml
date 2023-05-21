@@ -120,16 +120,6 @@
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text=" kaibigan"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
-
-
                 </LinearLayout>
 
 
@@ -138,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/medium"
-                    android:text=" na kanyang pinaglingkuran.\n"
+                    android:text="kaibigan na kanyang pinaglingkuran.\n"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -311,20 +301,13 @@
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="siyang"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
+
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="katoliko na sumasamba sa lahat ng mga santo. Naging sunod-sunuran din siya sa mga gawain at kagustuhan ng mga banyaga."
+                    android:text="siyang katoliko na sumasamba sa lahat ng mga santo. Naging sunod-sunuran din siya sa mga gawain at kagustuhan ng mga banyaga."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_gravity="center"
@@ -365,7 +348,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="mula sa panganganak kaya si Tiya"
+                        android:text="mula sa panganganak kaya"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -376,7 +359,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="Isabel na kanyang pinsan ang naging katuwang niya sa pagpapalaki kay Maria Clara."
+                    android:text=" si Tiya Isabel na kanyang pinsan ang naging katuwang niya sa pagpapalaki kay Maria Clara."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_gravity="center"

@@ -94,7 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" salusalo si Don "
+                        android:text=" salusalo"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -108,7 +108,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text="de los Santos o mas kilala bilang Kapitan Tiago. Dahil mabuting tao at kilala sa buong Maynila, agad na kumalat ang balita tungkol sa pagtitipong gagawin sa Kalye Anluwagi."
+                    android:text="si  Don de los Santos o mas kilala bilang Kapitan Tiago. Dahil mabuting tao at kilala sa buong Maynila, agad na kumalat ang balita tungkol sa pagtitipong gagawin sa Kalye Anluwagi."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -149,7 +149,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="\n ang mga bisita "
+                        android:text="\n ang mga"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -168,7 +168,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|center_horizontal"
                         android:fontFamily="@font/medium"
-                        android:text="na "
+                        android:text=" bisita na "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -191,7 +191,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" naman ni Tiya Isabel, pinsan ni Tiago. "
+                        android:text=" naman ni Tiya"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -204,7 +204,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text=" Kabilang sa mga dumalo ay sina Padre Sibyla, Tinyente Guevarra, mag-asawang Dr. de Espadaña at Donya Victorina, Padre Damaso, at isang kararating lamang na dayuhan sa Pilipinas."
+                    android:text=" Isabel, pinsan ni Tiago.  Kabilang sa mga dumalo ay sina Padre Sibyla, Tinyente Guevarra, mag-asawang Dr. de Espadaña at Donya Victorina, Padre Damaso, at isang kararating lamang na dayuhan sa Pilipinas."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp"
@@ -259,14 +259,6 @@
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="sa tabako, "
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -282,7 +274,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|center_horizontal"
                         android:fontFamily="@font/medium"
-                        android:text="dito nagsalita nang di maganda si Padre Damaso"
+                        android:text="sa tabako, dito nagsalita nang di maganda si Padre Damaso"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -331,7 +323,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|center_horizontal"
                         android:fontFamily="@font/medium"
-                        android:text=" niya ang mga ito at"
+                        android:text=" niya ang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -344,7 +336,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text="naman ni Padre Sabyla ang usapan."
+                    android:text=" mga ito at naman ni Padre Sabyla ang usapan."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp"
@@ -399,7 +391,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|center_horizontal"
                         android:fontFamily="@font/medium"
-                        android:text=" ng San Diego. Sabi ni Damaso,"
+                        android:text=" ng San Diego. "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -412,7 +404,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text=" hindi raw dapat nangingialam ang hari ng Espanya sa pagbibigay-parusa sa mga erehe. Sinabi naman ni Tinyente na nararapat lamang ang parusa."
+                    android:text="Sabi ni Damaso, hindi raw dapat nangingialam ang hari ng Espanya sa pagbibigay-parusa sa mga erehe. Sinabi naman ni Tinyente na nararapat lamang ang parusa."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp"/>
@@ -453,7 +445,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/medium"
-                        android:text="Ito raw ay dahil ipinahukay niya ang ban-"
+                        android:text="Ito raw ay dahil ipinahukay "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -473,7 +465,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/medium"
-                        android:text="gkay ng isang"
+                        android:text="niya ang bangkay ng isang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -490,17 +482,6 @@
                         android:textSize="13sp"
                         />
 
-                    <TextView
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/medium"
-                        android:text="na lalaking napagbinta-"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp"
-                        />
 
                 </LinearLayout>
                 <LinearLayout
@@ -516,7 +497,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/medium"
-                        android:text="angang isang"
+                        android:text="na lalaking napagbintaangang isang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp"
@@ -533,19 +514,20 @@
                         android:textSize="13sp"
                         />
 
-                    <TextView
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/medium"
-                        android:text="dahil ayaw lamang mangumpisal."
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp"
-                        />
 
                 </LinearLayout>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/medium"
+                    android:text="dahil ayaw lamang mangumpisal."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    />
                 <TextView
 
                     android:layout_width="wrap_content"

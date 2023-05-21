@@ -90,7 +90,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="si Ibarra at nagtungo sa Fonda"
+                        android:text="si Ibarra at "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -100,8 +100,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="de Lala. Ito ang tinutuluyan niya tuwing pupunta ng"
+                    android:text="nagtungo sa Fonda de Lala. Ito ang tinutuluyan niya tuwing pupunta ng"
                     android:layout_gravity="center"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
                 <LinearLayout
@@ -132,7 +133,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="dumiretso si Ibarra sa nirentahang "
+                        android:text="dumiretso si Ibarra sa "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -148,7 +149,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="silid at inisip ang "
+                        android:text="nirentahang silid at inisip ang "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -162,21 +163,13 @@
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="na sinapit ng "
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
 
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="kanyang ama."
+                    android:text="na sinapit ng kanyang ama."
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -220,14 +213,6 @@
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="Nagmasid-"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
 
 
                 </LinearLayout>
@@ -239,7 +224,7 @@
                 android:fontFamily="@font/medium"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
-                android:text="-masid ang binata at pinanood ang mga nagtatanghal."
+                android:text="Nagmasidmasid ang binata at pinanood ang mga nagtatanghal."
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="13sp" />
@@ -276,7 +261,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="na nakikiisa sa programa. Kita rin niya sa"
+                        android:text="na nakikiisa sa programa."
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -291,7 +276,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text=" umpukan ng mga tao ang mga Pilipino, Kastila, Intsik, at mga prayle."
+                    android:text="  Kita rin niya sa umpukan ng mga tao ang mga Pilipino, Kastila, Intsik, at mga prayle."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -323,7 +308,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ng kaniyang atensiyon"
+                        android:text="ng kaniyang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -340,10 +325,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ang binibining si Maria Clara. "
+                        android:text="atensiyon ang binibining si Maria Clara. "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
                     <TextView
                         android:id="@+id/Nabighani"
                         android:layout_width="wrap_content"
@@ -364,20 +356,33 @@
                         android:textSize="13sp" />
 
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text=" sa angking ganda"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal">
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" sa angking ganda nito at hindi"
+                        android:text="nito at hindi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
+
                     <TextView
                         android:id="@+id/maiwaglit"
                         android:layout_width="wrap_content"
@@ -396,7 +401,6 @@
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
-
 
                 </LinearLayout>
                 <TextView
@@ -436,7 +440,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="na payat at putlain aysiyon"
+                        android:text="na payat at putlain "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -449,6 +453,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="aysiyon"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
 
                     <TextView
                         android:id="@+id/nahabag"

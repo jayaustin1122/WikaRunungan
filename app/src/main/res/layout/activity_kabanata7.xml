@@ -101,7 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ng simbahang"
+                        android:text="ng "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -116,7 +116,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text="katoliko, nakagawian na niya na magsimba tuwing umaga kasama ang pamangkin na si Maria Clara. Pagkatapos ng misa ng araw na iyon ay nagmamadali na umuwi si Maria, bagay na ikinagalit ng kanyang tiyahin."
+                    android:text="simbahang katoliko, nakagawian na niya na magsimba tuwing umaga kasama ang pamangkin na si Maria Clara. Pagkatapos ng misa ng araw na iyon ay nagmamadali na umuwi si Maria, bagay na ikinagalit ng kanyang tiyahin."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -152,7 +152,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="aligaga "
+                        android:text=" aligaga "
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
@@ -161,7 +161,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ang dalaga. Hinihintay niya"
+                        android:text="ang dalaga."
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -174,7 +174,7 @@
                     android:fontFamily="@font/medium"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:text="  ang pagdating ng kanyang kasintahan na si Ibarra. Halos pitong taon din ang lumipas na hindi "
+                    android:text=" Hinihintay niya ang pagdating ng kanyang kasintahan na si Ibarra. Halos pitong taon din ang lumipas na hindi "
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -238,7 +238,7 @@
                         android:text="\nng dalawa ang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
@@ -304,6 +304,16 @@
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
                     <TextView
                         android:id="@+id/pakikipagsapalaran"
                         android:layout_width="wrap_content"
@@ -313,18 +323,18 @@
                         android:textAlignment="center"
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="sa Europa."
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/medium"
-                    android:text="sa Europa."
-                    android:layout_gravity="center"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="13sp" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -344,7 +354,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ni Maria ang paglayo ni Ibarra upang"
+                        android:text="ni Maria ang paglayo ni Ibarra "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -357,8 +367,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text=" mag-aral, ngunit dagli naman itong sinagot ng binata. Lumayo daw siya para gawin ang mga higit na mahalagang bagay, ang pag-aaral para sa kabutihan ng hinaharap ng bayan."
+                    android:text="upang mag-aral, ngunit dagli naman itong sinagot ng binata. Lumayo daw siya para gawin ang mga higit na mahalagang bagay, ang pag-aaral para sa kabutihan ng hinaharap ng bayan."
                     android:textAlignment="center"
+                    android:padding="5dp"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
             </LinearLayout>

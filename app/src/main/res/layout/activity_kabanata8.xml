@@ -77,6 +77,14 @@
                         android:textColor="@color/black"
                         android:textSize="12sp" />
 
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
                     <TextView
                         android:id="@+id/diskriminasyon"
                         android:layout_width="wrap_content"
@@ -163,7 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ng kanyang karwahe ay"
+                        android:text="ng kanyang "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -176,6 +184,15 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="karwahe ay"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/binagtas"
@@ -196,31 +213,25 @@
                         android:textSize="13sp" />
 
 
-                    <TextView
-                        android:id="@+id/nanlumo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text=" Nanlumo "
-                        android:textAlignment="center"
-                        android:textColor="@color/blue"
-                        android:textSize="13sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="at nalungkot "
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
-
 
                 </LinearLayout>
+                <TextView
+                    android:id="@+id/nanlumo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text=" Nanlumo "
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="13sp" />
+
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="siya dahil sa kanyang mga nasilayan. Halos walang pinagbago at lalo pang pumangit ang Escolta pagkatapos ng pitong taon na nilisan niya ito."
+                    android:text="at nalungkot siya dahil sa kanyang mga nasilayan. Halos walang pinagbago at lalo pang pumangit ang Escolta pagkatapos ng pitong taon na nilisan niya ito."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -273,7 +284,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ang kanyang kalungkutan"
+                        android:text="ang kanyang "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -284,7 +295,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="nang madaanan niya ang Bagumbayan. Dito ay sumagi sa isip niya ang mga aral ng kanyang dating guro na pari. Ang mga aral na ito ang nagbigay sa kanya ng inspirasyon upang isapuso ang pag-aaral at ipamahagi ito lalo na sa mga kabataan na siyang pag-asa ng bayan."
+                    android:padding="5dp"
+                    android:text="kalungkutan nang madaanan niya ang Bagumbayan. Dito ay sumagi sa isip niya ang mga aral ng kanyang dating guro na pari. Ang mga aral na ito ang nagbigay sa kanya ng inspirasyon upang isapuso ang pag-aaral at ipamahagi ito lalo na sa mga kabataan na siyang pag-asa ng bayan."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

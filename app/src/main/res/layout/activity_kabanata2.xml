@@ -107,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" kamayan ni Ibarra si Padre Damaso"
+                        android:text=" kamayan ni Ibarra si Padre"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -117,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="  pero agad itong tumalikod.
+                    android:text=" Damaso pero agad itong tumalikod.
 \n \nSi Padre Damaso ay matalik na kaibigan ng ama ni Ibarra. Dahil sa biglang pagtalikod ni Padre Damaso ay nakaharap siya sa tinyenteng kanina pa"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -188,7 +188,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" nila na makita siya sa kasiyahan na"
+                        android:text=" nila na makita siya sa "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -200,7 +200,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="iyon. Halos mangiyak-iyak sa tuwa ang Tinyente habang nakikipag-uusap kay Ibarra."
+                    android:text="kasiyahan na iyon. Halos mangiyak-iyak sa tuwa ang Tinyente habang nakikipag-uusap kay Ibarra."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

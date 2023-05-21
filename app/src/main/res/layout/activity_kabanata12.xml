@@ -68,7 +68,7 @@
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:text="\nSa ika-lanbindalawang kabanata ng Noli Me Tangere "
-                    android:textSize="13sp" />
+                    android:textSize="12sp" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                         android:text=" isinalaysay rito ang dalawang "
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/sepultorero"
@@ -92,7 +92,7 @@
                         android:text="sepultorero "
                         android:textAlignment="center"
                         android:textColor="@color/blue"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
 
 
 
@@ -167,18 +167,19 @@
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
-                    <TextView
-                        android:id="@+id/nagampanan"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text=" nagampanan "
-                        android:textAlignment="center"
-                        android:textColor="@color/blue"
-                        android:textSize="13sp" />
 
 
                 </LinearLayout>
+                <TextView
+                    android:id="@+id/nagampanan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text=" nagampanan "
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:layout_width="wrap_content"

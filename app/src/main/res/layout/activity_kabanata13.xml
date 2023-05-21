@@ -108,7 +108,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text=" ni Don Rafael sa"
+                        android:text=" ni Don "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -120,7 +120,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
                     android:layout_gravity="center"
-                    android:text="sa lawa alinsunod sa utos ni Padre Garrote."
+                    android:text="Rafael sa lawa alinsunod sa utos ni Padre Garrote."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

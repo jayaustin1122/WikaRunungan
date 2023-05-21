@@ -22,7 +22,6 @@ class GlosaryAdapter(var list:MutableList<Glosary>): RecyclerView.Adapter<Glosar
     override fun onBindViewHolder(holder: ViewHolderAdapter, position: Int) {
         holder.binding.apply {
             title.text = list[position].title
-            desc.text = list[position].description
         }
         // to make the viewcard functional
         holder.itemView.setOnClickListener(){

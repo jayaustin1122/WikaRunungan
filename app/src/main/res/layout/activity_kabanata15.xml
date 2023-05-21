@@ -27,7 +27,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/asd"
         android:padding="15dp"
-        android:text="KABANATA 14: SI PILOSOPO TASYO "
+        android:text="KABANATA 15: MGA SAKRISTAN"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -101,7 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="at ipinagdarasal na magkasakit ang mga "
+                        android:text="at ipinagdarasal na magkasakit "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -114,7 +114,7 @@
                     android:fontFamily="@font/medium"
                     android:layout_gravity="center"
                     android:textAlignment="center"
-                    android:text="prayle. Halagang P32 (dalawang onsa) ang pinababayaran sa magkapatid gayong dalawang piso lang ang sahod nila kada buwan."
+                    android:text="ang mga prayle. Halagang P32 (dalawang onsa) ang pinababayaran sa magkapatid gayong dalawang piso lang ang sahod nila kada buwan."
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -158,7 +158,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="pagpapatunog sa kampana. Sinabihan"
+                        android:text="pagpapatunog sa kampana."
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -170,7 +170,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
                     android:layout_gravity="center"
-                    android:text="din sila na hanggang ikasampu pa sila ng gabi sa simbahan, lagpas na sa ika-9 ng gabing pahintulot upang maglakad sa kalsada."
+                    android:text="Sinabihan din sila na hanggang ikasampu pa sila ng gabi sa simbahan, lagpas na sa ika-9 ng gabing pahintulot upang maglakad sa kalsada."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

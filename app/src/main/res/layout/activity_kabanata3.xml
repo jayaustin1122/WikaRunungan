@@ -101,7 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ni Ibarra. Sa pagsasalo na ito ay nakita"
+                        android:text="ni Ibarra. Sa pagsasalo na ito ay "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -112,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text=" niya si Pari Sybyla at Padre Damaso. Kitang-kita sa pagmumukha ni Pari Sybyla ang kasiyahan niya sa pagdalo, samantala, si Padre Damaso naman ay "
+                    android:text="nakita niya si Pari Sybyla at Padre Damaso. Kitang-kita sa pagmumukha ni Pari Sybyla ang kasiyahan niya sa pagdalo, samantala, si Padre Damaso naman ay "
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -261,7 +261,7 @@ Nalaman ng mga kausap ni Ibarra ang kanyang mga napuntahan sa mga nakaraang taon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="sa ibang bansa. Sinabi niya"
+                        android:text="sa ibang bansa. "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -273,7 +273,7 @@ Nalaman ng mga kausap ni Ibarra ang kanyang mga napuntahan sa mga nakaraang taon
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="rin ang kanyang mga natututuhan, bukod sa wika, tulad ng iba’t ibang kasaysayan ng bansa ng kanyang pinuntahan."
+                    android:text="Sinabi niyarin ang kanyang mga natututuhan, bukod sa wika, tulad ng iba’t ibang kasaysayan ng bansa ng kanyang pinuntahan."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_marginBottom="10dp"

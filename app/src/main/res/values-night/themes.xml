@@ -13,4 +13,15 @@
         <item name="android:statusBarColor">@color/statusbar</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="MyTabItemStyle" parent="@style/Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@drawable/btn</item>
+    </style>
 </resources>

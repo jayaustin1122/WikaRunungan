@@ -112,13 +112,24 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="upang malinis ang sangkatauhan."
+                        android:text="upang malinis "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
 
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text=" ang sangkatauhan."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -152,7 +163,7 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                         android:text="Napag-usapan nila si Ibarra at ang"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/hinagpis"
@@ -164,15 +175,6 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text=" na"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
-
                 </LinearLayout>
 
                 <TextView
@@ -180,7 +182,7 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
                     android:layout_gravity="center"
-                    android:text="nararamdaman nito dahil sa sinapit ng ama."
+                    android:text="na nararamdaman nito dahil sa sinapit ng ama."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -210,16 +212,6 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                         android:textColor="@color/blue"
                         android:textSize="13sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/medium"
-                        android:text="ang talakayan. Hindi"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="13sp" />
-
-
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
@@ -234,7 +226,7 @@ Sinuway ito ni Tasyo at nag-asawa. Gayunman, isang taon matapos ikasal ay namaya
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="Katulad ng nakagawian, nagpaalam si Tasyo at naglakad kahit madilim ang langit at"
+                    android:text="ang talakayan. Hindi Katulad ng nakagawian, nagpaalam si Tasyo at naglakad kahit madilim ang langit at"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

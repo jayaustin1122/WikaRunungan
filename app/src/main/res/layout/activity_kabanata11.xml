@@ -102,7 +102,7 @@
                         android:text="Sa kabila ng kanilang mga salapi at"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/awtoridad"
@@ -112,7 +112,7 @@
                         android:text=" awtoridad, "
                         android:textAlignment="center"
                         android:textColor="@color/blue"
-                        android:textSize="13sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
@@ -154,9 +154,9 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:fontFamily="@font/medium"
-                        android:text="– ang Alperes. Ang dalawang ito ang"
+                        android:text="– ang Alperes. Ang "
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -166,7 +166,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text=" tinitingala nang lahat at ang tawag sa kanila ay “casique.” Lingid sa kaalaman ng lahat ay ang"
+                    android:text="dalawang ito ang tinitingala nang lahat at ang tawag sa kanila ay “casique.” Lingid sa kaalaman ng lahat ay ang"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
@@ -198,7 +198,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/medium"
-                        android:text="ngunit hindi nila"
+                        android:text="ngunit hindi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
@@ -209,7 +209,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/medium"
-                    android:text="ito ipinapakita lalo sa publiko na maaaring makasira sa imahe nila."
+                    android:text=" nila ito ipinapakita lalo sa publiko na maaaring makasira sa imahe nila."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

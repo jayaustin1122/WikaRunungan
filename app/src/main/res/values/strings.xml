@@ -1,5 +1,5 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <string name="app_name">Wika Runungan</string>
+    <string name="app_name">WIKArunungan</string>
     <string name="clickable_sentence">This is a <span android:clickable="true" android:textColor="@color/clickable_text" android:textStyle="bold">clickable word</span> in a sentence.</string>
     <string name="glosaryo">Glosaryo</string>
     <string name="kabanata">Kabanata</string>
